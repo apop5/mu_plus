@@ -21,7 +21,7 @@
 #include <Library/SmmServicesTableLib.h>
 #include <Library/UefiBootServicesTableLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 STATIC ADVANCED_LOGGER_INFO  *mLoggerInfo;
 STATIC UINT32                mBufferSize  = 0;

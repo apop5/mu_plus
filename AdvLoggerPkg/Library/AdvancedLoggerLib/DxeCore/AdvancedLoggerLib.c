@@ -25,7 +25,7 @@
 #include <Library/TimerLib.h>
 #include <Library/VariablePolicyHelperLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 //
 // Protocol interface that connects the DXE library instances with the AdvancedLogger

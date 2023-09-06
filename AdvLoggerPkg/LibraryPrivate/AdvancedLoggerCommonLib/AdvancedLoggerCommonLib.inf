@@ -9,19 +9,16 @@
 
 [Defines]
   INF_VERSION                    = 1.26
-  BASE_NAME                      = SmmAdvancedLoggerLib
+  BASE_NAME                      = AdvancedLoggerCommonLib
   MODULE_UNI_FILE                = AdvancedLoggerLib.uni
-  FILE_GUID                      = 4facdc4b-9853-464c-8d4e-1ffae03fd4e3
-  MODULE_TYPE                    = DXE_SMM_DRIVER
+  FILE_GUID                      = C6FFC5A4-5CD5-4FBF-97BC-3EDFA3AFC591
+  MODULE_TYPE                    = BASE
   VERSION_STRING                 = 1.0
-  LIBRARY_CLASS                  = AdvancedLoggerLib | SMM_CORE
-  CONSTRUCTOR                    = SmmCoreAdvancedLoggerLibConstructor
-#
-#  VALID_ARCHITECTURES           = IA32 X64 AARCH64
-#
+  LIBRARY_CLASS                  = AdvancedLoggerCommonLib
+
 
 [Sources]
-  AdvancedLoggerLib.c
+  AdvancedLoggerCommonLib.c
 
 [Packages]
   MdePkg/MdePkg.dec
@@ -36,11 +33,12 @@
   SynchronizationLib
   TimerLib
   UefiBootServicesTableLib
-  AdvancedLoggerCommonLib
 
 [Guids]
 
 [Protocols]
-  gAdvancedLoggerProtocolGuid                                               ## CONSUMES
 
 [Pcd]
+
+[Depex]
+  TRUE

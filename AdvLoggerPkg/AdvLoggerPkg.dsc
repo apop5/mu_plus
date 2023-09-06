@@ -63,6 +63,7 @@
 
   MmUnblockMemoryLib|MdePkg/Library/MmUnblockMemoryLib/MmUnblockMemoryLibNull.inf
 
+  AdvancedLoggerCommonLib|AdvLoggerPkg/LibraryPrivate/AdvancedLoggerCommonLib/AdvancedLoggerCommonLib.inf
 
 [LibraryClasses.common.UEFI_APPLICATION]
   UnitTestPersistenceLib|UnitTestFrameworkPkg/Library/UnitTestPersistenceLibSimpleFileSystem/UnitTestPersistenceLibSimpleFileSystem.inf
@@ -122,6 +123,7 @@
 
 [Components]
   AdvLoggerPkg/Library/BaseDebugLibAdvancedLogger/BaseDebugLibAdvancedLogger.inf
+  AdvLoggerPkg/LibraryPrivate/AdvancedLoggerCommonLib/AdvancedLoggerCommonLib.inf
 
 [Components.IA32]
   AdvLoggerPkg/Library/AdvancedLoggerLib/Pei/AdvancedLoggerLib.inf

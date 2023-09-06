@@ -26,8 +26,6 @@
 
 [Sources]
   AdvancedLoggerLib.c
-  ../AdvancedLoggerCommon.h
-  ../AdvancedLoggerCommon.c
 
 [Packages]
   MdePkg/MdePkg.dec
@@ -40,6 +38,7 @@
   PcdLib
   SynchronizationLib
   TimerLib
+  AdvancedLoggerCommonLib
 
 [Pcd]
   gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerBase                         ## CONSUMES

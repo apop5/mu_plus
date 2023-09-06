@@ -23,8 +23,6 @@
 
 [Sources]
   AdvancedLoggerLib.c
-  ../AdvancedLoggerCommon.h
-  ../AdvancedLoggerCommon.c
 
 [Packages]
   MdePkg/MdePkg.dec
@@ -36,6 +34,7 @@
   DebugLib
   HobLib
   SynchronizationLib
+  AdvancedLoggerCommonLib
 
 [Guids]
   gAdvancedLoggerHobGuid

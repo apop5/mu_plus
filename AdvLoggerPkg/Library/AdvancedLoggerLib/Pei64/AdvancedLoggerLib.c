@@ -15,7 +15,7 @@
 #include <Library/AdvancedLoggerHdwPortLib.h>
 #include <Library/PcdLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 /**
   Get the Logger Information block

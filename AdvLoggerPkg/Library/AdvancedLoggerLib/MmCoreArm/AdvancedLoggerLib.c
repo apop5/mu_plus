@@ -17,7 +17,7 @@
 #include <Library/SynchronizationLib.h>
 #include <Library/ArmMmuLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 #define ADV_LOGGER_MIN_SIZE  (65536)
 

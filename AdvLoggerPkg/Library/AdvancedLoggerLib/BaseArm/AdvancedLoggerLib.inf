@@ -23,8 +23,6 @@
 
 [Sources]
   AdvancedLoggerLib.c
-  ../AdvancedLoggerCommon.h
-  ../AdvancedLoggerCommon.c
 
 [Packages]
   MdePkg/MdePkg.dec
@@ -35,6 +33,7 @@
   BaseLib
   DebugLib
   SynchronizationLib
+  AdvancedLoggerCommonLib
 
 [Pcd]
   gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerBase

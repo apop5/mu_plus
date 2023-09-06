@@ -17,7 +17,7 @@
 #include <Library/PcdLib.h>
 #include <Library/SynchronizationLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 EFI_STATUS
 EFIAPI

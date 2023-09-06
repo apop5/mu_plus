@@ -36,7 +36,7 @@
 #include <Library/PeiServicesLib.h>
 #include <Library/SynchronizationLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 //
 // Prototype function used in Memory Discovered Ppi

@@ -7,8 +7,8 @@
 
 **/
 
-#ifndef __ADVANCED_LOGGER_COMMON_H__
-#define __ADVANCED_LOGGER_COMMON_H__
+#ifndef __ADVANCED_LOGGER_COMMON_LIB_H__
+#define __ADVANCED_LOGGER_COMMON_LIB_H__
 
 /**
     Write data from buffer into the in memory logging buffer.

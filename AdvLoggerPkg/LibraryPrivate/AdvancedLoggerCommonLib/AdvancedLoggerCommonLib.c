@@ -17,7 +17,7 @@
 #include <Library/SynchronizationLib.h>
 #include <Library/TimerLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 /**
   Write data from buffer into the in memory logging buffer.

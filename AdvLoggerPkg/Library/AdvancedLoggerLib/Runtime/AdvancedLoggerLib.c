@@ -17,7 +17,7 @@
 
 #include <Library/DebugLib.h>
 
-#include "../AdvancedLoggerCommon.h"
+#include "Library/AdvancedLoggerCommonLib.h"
 
 STATIC ADVANCED_LOGGER_INFO  *mLoggerInfo           = NULL;
 STATIC UINT32                mBufferSize            = 0;

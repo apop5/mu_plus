@@ -17,6 +17,9 @@
 [Includes]
   Include
 
+[Includes.Common.Private]
+  IncludePrivate
+
 [LibraryClasses]
 
   ## @library class Provides the interface for the top level logger
@@ -30,6 +33,12 @@
   ## @library class Provides the interface to the Hdw Port
   #
   AdvancedLoggerAccessLib|Include/Library/AdvancedLoggerHdwPortLib.h
+
+
+[LibraryClasses.Common.Private]
+  ## @library class that provides common functionality for library instances
+  #
+  AdvancedLoggerCommonLib|IncludePrivate/Library/AdvancedLoggerCommonLib.h
 
 [Guids]
   ## Token Space GUID
