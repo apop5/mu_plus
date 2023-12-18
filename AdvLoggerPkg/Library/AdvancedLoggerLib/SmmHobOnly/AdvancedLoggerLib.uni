@@ -1,0 +1,17 @@
+// /** @file
+// SMM_CORE Instance of Advanced Logger Library that only uses Hobs.
+//
+// Obtains the AdvLogger memory location from AdvancedLoggerHob.
+//
+//
+// Copyright (c) Microsoft Corporation
+//
+// SPDX-License-Identifier: BSD-2-Clause-Patent
+//
+// **/
+
+
+#string STR_MODULE_ABSTRACT             #language en-US "SMM_CORE Instance of AdvancedLoggerLib for Memory Logger that only uses Hobs"
+
+#string STR_MODULE_DESCRIPTION          #language en-US "Obtains access to the logger buffer."
+

@@ -1,0 +1,46 @@
+## @file
+#  SMM instance of the Advanced Logger library.
+#
+#  Copyright (c) Microsoft Corporation.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.26
+  BASE_NAME                      = SmmAdvancedLoggerHobOnlyLib
+  MODULE_UNI_FILE                = AdvancedLoggerLib.uni
+  FILE_GUID                      = 65170629-F316-4177-A8AA-D657194725C2
+  MODULE_TYPE                    = DXE_SMM_DRIVER
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = AdvancedLoggerLib | DXE_SMM_DRIVER
+  CONSTRUCTOR                    = SmmAdvancedLoggerLibConstructor
+#
+#  VALID_ARCHITECTURES           = IA32 X64 AARCH64
+#
+
+[Sources]
+  AdvancedLoggerLib.c
+  ../AdvancedLoggerCommon.h
+  ../AdvancedLoggerCommon.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  AdvLoggerPkg/AdvLoggerPkg.dec
+
+[LibraryClasses]
+  AdvancedLoggerHdwPortLib
+  BaseLib
+  DebugLib
+  HobLib
+  SynchronizationLib
+
+[Guids]
+  gAdvancedLoggerHobGuid
+
+[Pcd]
+  gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerHdwPortDebugPrintErrorLevel       ## SOMETIMES_CONSUMES
+
+[Depex]
+  TRUE
