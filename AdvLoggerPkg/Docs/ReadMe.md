@@ -6,6 +6,11 @@ The AdvancedLogger logs all debug messages into memory.
 At certain points, the log may be flushed to disk.
 The in memory log data is also available during runtime.
 
+## Flow
+
+![Flow of data into log buffer](debug_log_level.png)
+
+
 ## Configuration
 
 The following configurations are supported:
