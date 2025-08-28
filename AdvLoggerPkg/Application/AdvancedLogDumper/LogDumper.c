@@ -33,5 +33,6 @@ EntryPoint (
     return EFI_ABORTED;
   }
 
+  DEBUG ((DEBUG_INFO, "MERGECONFLICT!\n"));
   return AdvLogDumperInternalWorker (ImageHandle, SystemTable);
 }
